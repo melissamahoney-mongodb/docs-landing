@@ -26,6 +26,8 @@ Welcome to the MongoDB Docs
    use in their code:
 
    .. code-block:: json
+      :copyable: false
+
       {
          firstname: "Bob",
          lastname: "Smith",
@@ -41,6 +43,7 @@ Welcome to the MongoDB Docs
    Which you can retrieve with a simple query:
 
    .. code-block:: sh
+      :copyable: false
 
       user.find({ address.zip: "11111" })
 
