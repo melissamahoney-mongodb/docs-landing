@@ -11,10 +11,6 @@
 Welcome to the MongoDB Docs
 ===========================
 
-.. image:: /images/homepage-hero.svg
-   :class: hero-img
-   :alt: Homepage illustration
-
 .. introduction::
 
    MongoDB is a document-oriented, operational database 
