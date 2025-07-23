@@ -1,5 +1,5 @@
 :template: landing
-:hide-feedback: header
+:hidefeedback: page
 :noprevnext:
 :title: MongoDB Documentation Homepage
 
