@@ -65,42 +65,43 @@ Start here! Our Getting Started guide walks you through deploying
 your first database and downloading all the tools and libraries 
 you need to start developing with MongoDB. 
 
-----
+----------
 
 `Development <https://www.mongodb.com/docs/manual/>`__
 
 Everything you need to know to write apps with MongoDB, from connecting, 
 CRUD, and the core query language, to index optimization and data modeling.
 
-----
+----------
 
 `Management <https://www.mongodb.com/docs/tools-and-connectors/>`__
 
 Everything you need to know to administer and manage MongoDB deployments, including 
 provisioning, scaling, backup, monitoring, disaster recovery, security.
 
-----
+----------
 
 `Client Libraries <https://www.mongodb.com/docs/drivers/>`__
 
 Connect application code to MongoDB with a client library in 
 your favorite programming language or application framework. 
 
-----
+----------
 
 `Tools <https://www.mongodb.com/docs/tools-and-connectors/>`__
 
 Explore tools and integrations to aid in both development and management,
 including simplifying database management, integration, migration, and data visualization.
 
-----
+----------
 
 `Plans & Pricing <https://www.mongodb.com/docs/atlas/billing/>`__
 
-----
+----------
 
 `Atlas Architecture Center <https://www.mongodb.com/docs/atlas/architecture/current/>`__
 
 Learn best practices for designing scalable, secure, and resilient 
 systems using MongoDB in enterprise environments including architecture fundamentals, 
 MongoDB capabilities, and reference architectures.
+
