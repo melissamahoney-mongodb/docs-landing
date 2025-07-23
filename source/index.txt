@@ -1,175 +1,103 @@
 :template: landing
-:nav-show-all-products: true
+:hidefeedback: page
 :title: MongoDB Documentation Homepage
 
 .. meta::
    :description: This is the official MongoDB Documentation. Learn how to store data in flexible documents, create a MongoDB Atlas deployment, and use an ecosystem of tools and integrations.
    :canonical: https://www.mongodb.com/docs/
 
-=======================
-Welcome to MongoDB Docs
-=======================
 
-.. include:: /includes/docs-toc.rst
-
-.. introduction::
-
-<<<<<<< HEAD
-   Welcome to the official MongoDB Documentation. 
-   Whether you're a developer, database administrator, 
-   or just starting your journey with MongoDB, our 
-   documentation provides you with the information and 
-   knowledge needed to build applications on the world's
-   most popular modern database.
-=======
-   Welcome to the MongoDB documentation. This site contains 
-   everything you need to learn to effectively use MongoDB 
-   as an application developer or an operator. 
-
-   .. button:: Get Started
-      :uri: 
->>>>>>> 8c9a67a (New Overview)
+===========================
+Welcome to the MongoDB Docs
+===========================
 
 .. image:: /images/homepage-hero.svg
    :class: hero-img
    :alt: Homepage illustration
 
-   What is MongoDB?
-   ----------------
+.. introduction::
 
-   MongoDB is a document-oriented, operational database 
-   built from the ground up as an alternative to the relational 
-   database for modern applications.  
-
-   Unlike relational databases, MongoDB allows developers 
-   to store rich JSON-like documents that map naturally to 
-   the objects they use in their code.
-
-   For example, to model user objects in an application, 
-   a relational model would require multiple tables for 
-   what could be elegantly stored in MongoDB as this:
+   MongoDB is a document-oriented, operational database built 
+   from the ground up as an alternative to the relational database 
+   for modern applications.
+   
+   Unlike relational databases, MongoDB enables developers to store 
+   rich JSON-like documents that map naturally to the objects they 
+   use in their code:
 
    .. code-block:: json
-
       {
-       firstname: "Bob",
-       lastname: "Smith",
-       email: "bob@smith.com",
-       address: {
-         street: "100 Main St",
-         city: "Anytown",
-         state: "MO",
-         zip: "11111"
-       }
+         firstname: "Bob",
+         lastname: "Smith",
+         email: "bob@smith.com",
+         address: {
+            street: "100 Main St",
+            city: "Anytown",
+            state: "MO",
+            zip: "11111"
+         }
       }
-   
-   And retrieved with queries such as:
+
+   Which you can retrieve with a simple query:
 
    .. code-block:: sh
 
-      users.find({address.zip : "111111"})
+      user.find({ address.zip: "11111" })
 
    MongoDB also offers:
+
    - Strong consistency with ACID transactions.
-   - Modern additional built-in query capabilities such as geographical search, lexical search, and vector search.
-   - Serverless horizontal scaling with geography-aware fault tolerance across all major cloud providers.
-   - Security primitives that comply with the most demanding of enterprise environments.
+   - Modern additional built-in query capabilities such as geo search, lexical search, and vector search.
+   - Serverless horizontal scaling with geo-aware fault tolerance across all major clouds.
+   - Security primitives that allow MongoDB to operate in the most demanding of enterprise environments.
 
-.. kicker:: How this documentation is organized
+.. kicker:: 
 
-.. card-group::
-   :columns: 1
-   :layout: default
-   
-   .. card::
-      :headline: Getting Started
-      :url: https://www.mongodb.com/docs/atlas/getting-started/
-<<<<<<< HEAD
-      :icon: atlas_serverless
-      :icon-alt: Atlas icon
+How This Documentation is Organized
+-----------------------------------
 
-      The modern multi-cloud database that accelerates and simplifies
-      how you build with data.
+`Getting Started <https://www.mongodb.com/docs/atlas/getting-started/>`__
 
-   .. card:: 
-      :headline: Database Manual →
-      :icon: mdb_shell
-      :icon-alt: MongoDB Database Manual
-=======
+Start here! Our Getting Started guide walks you through deploying 
+your first database and downloading all the tools and libraries 
+you need to start developing with MongoDB. 
 
-      Start here! Our Getting Started guide walks you through deploying 
-      your first database and downloading all the tools and libraries 
-      you need to start developing with MongoDB. 
+----
 
-   .. card:: 
-      :headline: Development
->>>>>>> 8c9a67a (New Overview)
-      :url: https://www.mongodb.com/docs/manual/
+`Development <https://www.mongodb.com/docs/manual/>`__
 
-      Everything you need to know to write apps with MongoDB, from the basics like connecting, 
-      CRUD, and the core query language, to advanced topics such as index 
-      optimization and data modeling. 
-   
-   .. card:: 
-<<<<<<< HEAD
-      :headline: Migrators, Tools, and Connectors →
-      :icon: general_features_tools
-      :icon-alt: Migrators, Tools, and Connectors
-=======
-      :headline: Management
->>>>>>> 8c9a67a (New Overview)
-      :url: https://www.mongodb.com/docs/tools-and-connectors/
+Everything you need to know to write apps with MongoDB, from connecting, 
+CRUD, and the core query language, to index optimization and data modeling.
 
-      Everything you need to know to administer and manage MongoDB deployments, including 
-      provisioning, scaling, backup, monitoring, disaster recovery, security.
+----
 
-   .. card:: 
-<<<<<<< HEAD
-      :headline: Client Libraries →
-      :icon: atlas_drivers
-      :icon-alt: Client libraries icon.
-=======
-      :headline: Client Libraries
->>>>>>> 8c9a67a (New Overview)
-      :url: https://www.mongodb.com/docs/drivers/
+`Management <https://www.mongodb.com/docs/tools-and-connectors/>`__
 
-      Connect application code to MongoDB with a client library in 
-      your favorite programming language or application framework. 
+Everything you need to know to administer and manage MongoDB deployments, including 
+provisioning, scaling, backup, monitoring, disaster recovery, security.
 
-   .. card:: 
-      :headline: Tools
-      :url: https://www.mongodb.com/docs/drivers/
+----
 
-      Explore tools and integrations to aid in both development and management,
-      including simplifying database management, integration, migration, and data visualization.
+`Client Libraries <https://www.mongodb.com/docs/drivers/>`__
 
-   .. card:: 
-      :headline: Atlas Architecture Center
-      :url: https://www.mongodb.com/docs/drivers/
+Connect application code to MongoDB with a client library in 
+your favorite programming language or application framework. 
 
-      Learn best practices for designing scalable, secure, and resilient 
-      systems using MongoDB in enterprise environments including architecture fundamentals, 
-      MongoDB capabilities, and reference architectures.
+----
 
-More Ways to Learn
-------------------
+`Tools <https://www.mongodb.com/docs/tools-and-connectors/>`__
 
-.. card-group::
-   :columns: 3
-   :style: large-icon
-   :layout: default
+Explore tools and integrations to aid in both development and management,
+including simplifying database management, integration, migration, and data visualization.
 
-   .. card::
-      :icon: general_content_learn
-      :headline: Take Free Courses on MongoDB University
-      :url: https://learn.mongodb.com/
-   
-   .. card::
-      :icon: general_content_community
-      :headline: Join Forums and Discussions
-      :url: https://www.mongodb.com/community/
-   
-   .. card::
-      :icon: mdb_devhub
-      :headline: View Developer Resources
-      :url: https://www.mongodb.com/developer/
+----
+
+`Plans & Pricing <https://www.mongodb.com/docs/atlas/billing/>`__
+
+----
+
+`Atlas Architecture Center <https://www.mongodb.com/docs/atlas/architecture/current/>`__
+
+Learn best practices for designing scalable, secure, and resilient 
+systems using MongoDB in enterprise environments including architecture fundamentals, 
+MongoDB capabilities, and reference architectures.
