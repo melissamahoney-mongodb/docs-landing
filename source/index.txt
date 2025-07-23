@@ -17,42 +17,7 @@ Welcome to the MongoDB Docs
 
 .. introduction::
 
-   MongoDB is a document-oriented, operational database built from the ground up as an alternative to the relational database for modern applications.  
-
-.. kicker::
-
-Unlike relational databases, MongoDB enables developers to store 
-rich JSON-like documents that map naturally to the objects they 
-use in their code:
-
-.. code-block:: json
-   :copyable: false
-
-   {
-      firstname: "Bob",
-      lastname: "Smith",
-      email: "bob@smith.com",
-      address: {
-         street: "100 Main St",
-         city: "Anytown",
-         state: "MO",
-         zip: "11111"
-      }
-   }
-
-Which you can retrieve with a simple query:
-
-.. code-block:: sh
-   :copyable: false
-
-   user.find({ address.zip: "11111" })
-
-MongoDB also offers:
-
-- Strong consistency with ACID transactions.
-- Modern additional built-in query capabilities such as geo search, lexical search, and vector search.
-- Serverless horizontal scaling with geo-aware fault tolerance across all major clouds.
-- Security primitives that allow MongoDB to operate in the most demanding of enterprise environments.
+   MongoDB is a document-oriented, operational database built from the ground up as an alternative to the relational database for modern applications.
 
 .. kicker:: 
    
