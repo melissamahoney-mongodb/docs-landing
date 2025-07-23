@@ -13,9 +13,7 @@ Welcome to the MongoDB Docs
 
 .. introduction::
 
-   MongoDB is a document-oriented, operational database 
-   built from the ground up as an alternative to the relational 
-   database for modern applications.  
+   MongoDB is a document-oriented, operational database built from the ground up as an alternative to the relational database for modern applications.  
 
    MongoDB offers:
 
@@ -37,44 +35,35 @@ How This Documentation is Organized
       :headline: Getting Started
       :url: https://www.mongodb.com/docs/atlas/getting-started/
 
-      Start here! Our Getting Started guide walks you through deploying 
-      your first database and downloading all the tools and libraries 
-      you need to start developing with MongoDB. 
+      Start here! Our Getting Started guide walks you through deploying your first database and downloading all the tools and libraries you need to start developing with MongoDB. 
 
    .. card:: 
       :headline: Development
       :url: https://www.mongodb.com/docs/manual/
 
-      Everything you need to know to write apps with MongoDB, from connecting, 
-      CRUD, and the core query language, to index 
-      optimization and data modeling. 
+      Everything you need to know to write apps with MongoDB, from connecting, CRUD, and the core query language, to index optimization and data modeling. 
    
    .. card:: 
       :headline: Management
       :url: https://www.mongodb.com/docs/tools-and-connectors/
 
-      Everything you need to know to administer and manage MongoDB deployments, including 
-      provisioning, scaling, backup, monitoring, disaster recovery, security.
+      Everything you need to know to administer and manage MongoDB deployments, including provisioning, scaling, backup, monitoring, disaster recovery, security.
 
    .. card:: 
       :headline: Client Libraries
       :url: https://www.mongodb.com/docs/drivers/
 
-      Connect application code to MongoDB with a client library in 
-      your favorite programming language or application framework. 
+      Connect application code to MongoDB with a client library in your favorite programming language or application framework. 
 
    .. card:: 
       :headline: Tools
       :url: https://www.mongodb.com/docs/drivers/
 
-      Explore tools and integrations to aid in both development and management,
-      including simplifying database management, integration, migration, and data visualization.
+      Explore tools and integrations to aid in both development and management, including simplifying database management, integration, migration, and data visualization.
 
    .. card:: 
       :headline: Atlas Architecture Center
       :url: https://www.mongodb.com/docs/drivers/
 
-      Learn best practices for designing scalable, secure, and resilient 
-      systems using MongoDB in enterprise environments including architecture fundamentals, 
-      MongoDB capabilities, and reference architectures.
+      Learn best practices for designing scalable, secure, and resilient systems using MongoDB in enterprise environments including architecture fundamentals, MongoDB capabilities, and reference architectures.
 
